@@ -1,0 +1,27 @@
+case one
+case two and b=2
+case three and c=0
+one
+case three and c=1
+two
+case three and c=2
+three
+in the block default
+case one
+case two and b=2
+case three and c=0
+one
+case three and c=1
+two
+case three and c=2
+three
+in the block default
+case one
+case two and b=2
+case three and c=0
+one
+case three and c=1
+two
+case three and c=2
+three
+in the block default

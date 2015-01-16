@@ -1,0 +1,73 @@
+j,int, global, 0
+i,int, global, 0
+minusfour,int, global, 0
+k,int, global, 0
+#e1, int, 37
+#e2, int, 32
+#e3, int, 15
+#e4, int, 9
+#e5, int, 48
+#e6, int, 37
+@
+LIT 4, 0
+STO i, 0
+LIT 3, 0
+STO j, 0
+LIT 0, 0
+LIT 4, 0
+OPR 3, 0
+STO minusfour, 0
+LOD i, 0
+LIT 0, 0
+OPR 11,0
+JMC #e1, false
+LIT 3,0
+STO j,0
+LOD j, 0
+LIT 0, 0
+OPR 11,0
+JMC #e2, false
+LOD i, 0
+LOD j, 0
+OPR 4, 0
+STO k, 0
+LIT "k is ", 0
+LOD k, 0
+OPR 2, 0
+OPR 21,0
+LOD j, 0
+LIT 1, 0
+OPR 3, 0
+STO j, 0
+JMP #e3, 0	
+LOD i, 0
+LIT 1, 0
+OPR 3, 0
+STO i, 0
+JMP #e4, 0
+LOD i, 0
+LOD minusfour, 0
+OPR 11, 0
+JMC #e5, false
+LOD i, 0
+OPR 21, 0
+LOD i, 0
+LIT 1, 0
+OPR 3, 0
+STO i, 0
+JMP #e6, 0
+LOD i, 0
+LIT 1, 0
+OPR 2, 0
+STO i, 0
+LOD j, 0
+LIT 1, 0
+OPR 2, 0
+STO j, 0
+LIT "i is ",0
+LOD i, 0
+OPR 2, 0
+OPR 21, 0
+LOD j, 0
+OPR 21, 0
+OPR 0, 0 

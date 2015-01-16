@@ -1,0 +1,15 @@
+case one
+case two and a=1
+case three and c=0
+case three and c=1
+case three and c=2
+case one
+case two and a=2
+case three and c=0
+case three and c=1
+case three and c=2
+case one
+case two and a=2
+case three and c=0
+case three and c=1
+case three and c=2

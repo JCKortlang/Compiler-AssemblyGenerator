@@ -1,0 +1,60 @@
+a,int, global, 0
+b,int, global, 0
+c,int, global, 0
+d,int, global, 0
+#e1,int, 38
+#e2,int, 27
+#e3,int, 49
+#e4,int, 38
+@
+LIT 1, 0
+LIT 2, 0
+LIT 3, 0
+LIT 4, 0
+OPR 2, 0
+OPR 2, 0
+OPR 2, 0
+OPR 21,0
+LIT 100, 0
+STO a, 0
+LIT 0, 0
+LOD a, 0
+OPR 3, 0
+LIT 1, 0
+LIT 2, 0
+OPR 2, 0
+OPR 2, 0
+LOD a, 0
+OPR 2, 0
+STO a, 0
+LIT "the value of a is ",0 
+LOD a, 0
+OPR 2, 0
+OPR 21, 0
+LIT 10, 0
+STO a, 0
+LOD a, 0
+LIT 1, 0
+OPR 11, 0 
+JMC #e1, false
+LOD a, 0
+LIT 1, 0
+OPR 3, 0 
+STO a, 0
+LOD a, 0
+OPR 21, 0 
+JMP #e2, 0
+LOD a, 0
+LIT 10, 0
+OPR 12, 0 
+JMC #e3, false
+LOD a, 0
+LIT 1, 0
+OPR 2, 0 
+STO a, 0
+LOD a, 0
+OPR 21, 0 
+JMP #e4, 0
+LIT "this is the end", 0
+OPR 21, 0 
+OPR 0, 0

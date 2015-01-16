@@ -1,0 +1,18 @@
+"k is "12
+"k is "8
+"k is "4
+"k is "9
+"k is "6
+"k is "3
+"k is "6
+"k is "4
+"k is "2
+"k is "3
+"k is "2
+"k is "1
+0
+-1
+-2
+-3
+"i is"-3
+1

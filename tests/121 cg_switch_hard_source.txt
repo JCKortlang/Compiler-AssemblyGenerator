@@ -1,0 +1,56 @@
+{
+  int a;
+  int b;
+  a = 1;
+ 
+  while (a < 4) {
+   b = 1; 
+   while (b < 4) {
+      switch (b) {
+        case 1: {
+         print ("case one");
+        }
+        case 2: {
+          if (b == 1 ) {
+            print ("case two and b=1");
+          } else {
+            print("case two and b=2");
+          }
+        }
+        case 3: {
+           int c;
+           c = 0;
+	   while (c<3) {
+             print ("case three and c="+c);
+             c = c + 1;
+      	     switch (c) {
+               case 1: {
+                 print ("one");
+                 int d;
+                 d = 0;
+                 while (d<0) {
+                   d = d + 1;
+                   switch (d) {
+                     case 1: {print ("this is A");}
+                     case 2: {print  ("this is B");}
+                     default: {print ("this is C");}
+                   }
+                 } 
+                
+               }
+               case 2: {print ("two");}
+               case 3: {print ("three");}
+           }
+        }
+        }
+        default: {
+          print ("in the block default");
+        }
+      }
+      b = b + 1;
+    }
+    a = a + 1;
+  }
+    
+    
+}

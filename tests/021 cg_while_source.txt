@@ -1,0 +1,17 @@
+{
+  int a; int b; int c; int d;
+  print (1+(2+(3+4)));
+  a = 100;
+  a = -a + (1 + 2) + a;
+  print ("the value of a is " + a);
+  a = 10;
+  while (a > 1) {
+    a = a - 1;
+    print (a);
+  }
+  while (a < 10) {
+    a = a + 1;
+    print (a);
+  }
+  print ("this is the end");
+}
